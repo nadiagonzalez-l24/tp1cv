@@ -1,18 +1,16 @@
-h1{
-    color: rgb(95, 255, 95) (255, 124, 101) ;
-    font-size: 50 px;
+body {
+    margin: 50px 70px 50px 70px;
+    padding: 0;
 }
-h2{
-    color: rgb(0, 78, 194);
-    font-size: 30 px ;
+
+.navegacion {
+    position: fixed;
+    top: 50px;
+    right: 70px;
 }
-#aparte p{
-    font-style: italic;
+
+.botones {
+    padding: 10px 10px;
+    margin-left: 5px;
 }
-h3{
-    font-size: 20 px;
-}
-button{
-    border-color: rgb(255, 124, 101);
-    font-style: italic;
-}
+
