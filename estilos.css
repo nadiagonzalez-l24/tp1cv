@@ -3,11 +3,41 @@ body {
     padding: 0;
 }
 
+@font-face {
+    font-family: archivo;
+    src: url(/fuentes/Archivo-Bold.ttf);
+    font-weight: bold;
+    src: url(/fuentes/Archivo-Italic.ttf);
+    font-style: italic;
+    src: url(/fuentes/Archivo-Regular.ttf);
+    font-style: normal;
+}
+
+h1,
+h2,
+h3 {
+    font-family: archivo;
+    font-weight: bold;
+}
+
+.bajada {
+    font-family: archivo;
+    font-style: italic;
+}
+
+.textolargo {
+    font-family: archivo;
+    font-style: italic;
+}
+
+
 .fotoredondeada {
     border-radius: 20px;
 }
 
-h1,h2,h3 {
+h1,
+h2,
+h3 {
     color: #D6326E;
 }
 
@@ -17,23 +47,28 @@ h1,h2,h3 {
     right: 70px;
 }
 
-.boton {
+.boton1,.boton2 {
     padding: 10px 10px;
     margin-left: 5px;
     background-color: #223E66;
     color: white;
     border-radius: 20%;
-   
+    font-family: archivo;
+    font-style: normal;
 }
 
-.datitos {
+
+#datitos {
     background-color: #223E66;
     padding: 10px;
     width: 100%;
     color: white;
     text-align: center;
     border-radius: 10px;
+    font-family: archivo;
+    font-style: normal;
 }
+
 .dato {
     margin-right: 60px;
 }
