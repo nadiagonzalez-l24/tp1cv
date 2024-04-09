@@ -72,3 +72,7 @@ h3 {
 .dato {
     margin-right: 60px;
 }
+.dato a {
+    text-decoration: none;
+    color: white;
+}
