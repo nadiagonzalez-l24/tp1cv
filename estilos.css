@@ -1,5 +1,5 @@
 body {
-    margin: 50px 70px 50px 70px;
+    margin: 50px 70px 0% 70px;
     padding: 0;
 }
 
@@ -41,14 +41,14 @@ h3 {
     color: #D6326E;
 }
 
-.navegacion {
+nav{
     position: fixed;
     top: 50px;
     right: 70px;
 }
 
 .boton1,.boton2 {
-    padding: 10px 10px;
+    padding: 20px 20px;
     margin-left: 5px;
     background-color: #223E66;
     color: white;
@@ -59,12 +59,11 @@ h3 {
 
 
 #datitos {
-    background-color: #223E66;
-    padding: 10px;
+    background-color: #223E66; 
+    padding: 20px;
     width: 100%;
     color: white;
     text-align: center;
-    border-radius: 10px;
     font-family: archivo;
     font-style: normal;
 }
