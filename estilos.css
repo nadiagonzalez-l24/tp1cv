@@ -3,16 +3,6 @@ body {
     padding: 0;
 }
 
-@font-face {
-    font-family: archivo;
-    src: url(/fuentes/Archivo-Bold.ttf);
-    font-weight: bold;
-    src: url(/fuentes/Archivo-Italic.ttf);
-    font-style: italic;
-    src: url(/fuentes/Archivo-Regular.ttf);
-    font-style: normal;
-}
-
 h1,
 h2,
 h3 {
