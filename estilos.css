@@ -2,9 +2,14 @@ html {
     scroll-behavior: smooth;
 }
 
+
 body {
     margin: 50px 70px 0% 70px;
     padding: 0%;
+    background-image: url(imagenes/fondo.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-attachment: scroll;
     cursor: url(imagenes/cursor1.png), auto
 }
 
@@ -22,14 +27,20 @@ nav{
     margin-left: 5px;
     text-align: center;
     color: white;
-    border-radius: 50%;
+    border-radius: 20%;
+    border: none;
     font-family: archivo;
     font-weight: bold;
-    cursor: url(imagenes/cursor2.png), auto  
+    cursor: url(imagenes/cursor2.png), auto
 }
 
-.boton1,.boton2 {
-    transform: translateY(20px);
+.boton1:hover {
+    background-color: white;
+    color: #223E66;
+}
+.boton2:hover {
+    background-color: white;
+    color: #223E66;
 }
 
 h1 {
@@ -40,7 +51,7 @@ h1 {
 }
 
 .fotoredondeada {
-    border-radius: 50px;
+    border-radius: 20px;
 }
 
 h2 {
@@ -98,19 +109,15 @@ dd {
     height: 20px;
     width: 100%;
     padding: 20px;
-    color: white;
     text-align: center;
-    font-family: archivo;
-    font-style: normal;
+}
+ 
+.dato1,.dato2,.dato3 {
+    text-align: center;
+    margin: 60px;
+    cursor: url(imagenes/cursor2.png), auto
 }
 
-.datos {
-    margin-right: 60px;
- }
- 
-span a img {
-    margin-right: 60px;
-    display: inline-block;
-    cursor: url(imagenes/cursor2.png), auto  
-}
+
+
 
