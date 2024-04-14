@@ -8,10 +8,6 @@ body {
     cursor: url(imagenes/cursor1.png), auto
 }
 
-/*nav, img, h1, p, 
-h, ul, ol, li, aside
-adress, span */
-
 nav{
     position: fixed;
     top: 50px;
@@ -28,7 +24,7 @@ nav{
     color: white;
     border-radius: 50%;
     font-family: archivo;
-    font-style: normal;
+    font-weight: bold;
     cursor: url(imagenes/cursor2.png), auto  
 }
 
@@ -39,6 +35,7 @@ nav{
 h1 {
     font-family: archivo;
     font-weight: bold;
+    font-style: italic;
     color: #d6326e;
 }
 
@@ -57,12 +54,35 @@ h3 {
     font-weight: bold;
 }
 
+.nombres {
+    font-style: italic;
+}
+
 .bajada {
     font-family: archivo;
     font-style: italic;
 }
 
 ul,ol,li,p {
+    font-family: archivo;
+    font-style: normal;
+}
+
+ul li {
+    list-style-type: circle;
+}
+
+ol li {
+    list-style-type: decimal;
+}
+
+dt {
+    font-family: archivo;
+    font-weight: bold;
+}
+
+dd {
+    margin-left: 0%;
     font-family: archivo;
     font-style: normal;
 }
@@ -74,21 +94,23 @@ ul,ol,li,p {
 
 #datitos {
     background-color: #223E66; 
-    padding: 20px;
-    width: 100%;
+    margin: 0;
     height: 20px;
+    width: 100%;
+    padding: 20px;
     color: white;
     text-align: center;
     font-family: archivo;
     font-style: normal;
 }
 
-.dato {
+.datos {
     margin-right: 60px;
+ }
+ 
+span a img {
+    margin-right: 60px;
+    display: inline-block;
+    cursor: url(imagenes/cursor2.png), auto  
 }
 
-.dato a {
-    text-decoration: none;
-    color: white;
-    cursor: url(imagenes/cursor2.png), auto
-}
