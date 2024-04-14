@@ -1,9 +1,12 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 50px 70px 0% 70px;
     padding: 0%;
     cursor: url(imagenes/cursor1.png), auto
 }
-
 
 /*nav, img, h1, p, 
 h, ul, ol, li, aside
@@ -16,28 +19,32 @@ nav{
 }
 
 .boton1,.boton2 {
+    transition: transform 0.5s ease;
+    background-color: #223E66;
     height: 20px 20px;
     padding: 20px;
     margin-left: 5px;
-    background-color: #223E66;
     text-align: center;
     color: white;
-    border-radius: 20%;
+    border-radius: 50%;
     font-family: archivo;
     font-style: normal;
-    cursor: url(imagenes/cursor2.png), auto
+    cursor: url(imagenes/cursor2.png), auto  
+}
+
+.boton1,.boton2 {
+    transform: translateY(20px);
 }
 
 h1 {
     font-family: archivo;
     font-weight: bold;
-    color: rgb(214, 50, 110);
+    color: #d6326e;
 }
 
 .fotoredondeada {
-    border-radius: 20px;
+    border-radius: 50px;
 }
-
 
 h2 {
     font-family: archivo;
