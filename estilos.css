@@ -2,30 +2,34 @@ html {
     scroll-behavior: smooth;
 }
 
-
 body {
     margin: 50px 70px 0% 70px;
     padding: 0%;
-    background-image: url(imagenes/fondo.jpg);
+    background-image: url(imagenes/fondo.jpg); 
     background-repeat: no-repeat;
     background-position: top center;
     background-attachment: scroll;
     cursor: url(imagenes/cursor1.png), auto
 }
 
+#1 #2 {
+    display: flex;
+    flex-direction: row;
+}
+
 nav{
     position: fixed;
-    top: 50px;
+    height: 50px;
     right: 70px;
 }
 
 .boton1,.boton2 {
     transition: transform 0.5s ease;
     background-color: #223E66;
-    height: 20px 20px;
+    height: 50px;
+    text-align: center;
     padding: 20px;
     margin-left: 5px;
-    text-align: center;
     color: white;
     border-radius: 20%;
     border: none;
@@ -52,6 +56,17 @@ h1 {
 
 .fotoredondeada {
     border-radius: 20px;
+}
+
+.textolargo {
+    font-family: archivo;
+    font-style: italic;
+    width: 382px;
+}
+
+main {
+    margin-left: 478px;
+    margin-right: 70px;
 }
 
 h2 {
@@ -98,15 +113,10 @@ dd {
     font-style: normal;
 }
 
-.textolargo {
-    font-family: archivo;
-    font-style: italic;
-}
-
 #datitos {
     background-color: #223E66; 
     margin: 0;
-    height: 20px;
+    height: 50px;
     width: 100%;
     padding: 20px;
     text-align: center;
@@ -117,6 +127,9 @@ dd {
     margin: 60px;
     cursor: url(imagenes/cursor2.png), auto
 }
+
+
+
 
 
 
