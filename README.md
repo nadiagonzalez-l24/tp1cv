@@ -4,6 +4,7 @@ Primero estructure en orden la información que quería en HTML, luego le fui da
 Mi estructura de curriculum siempre fue básica, me guie por un cv que yo ya tenía en un formato PDF, por ello con CSS pude resolver la mayoría de los objetivos, con flexbox genere dos columnas, ubicación de botones en la parte superior derecha y lo utilice también para acomodar elementos en el footer. Allí en el footer me quedaron dos botones sin funcionar, uno para que me manden un mail y otro para una llamada, los configure siguiendo las videoclases del campus, pero creo que algo está faltando.
 Si bien sé que se pueden lograr cosas maravillosas como las de mis compañeros/as que utilizaron varios HTML y animaciones. Este pequeño proceso ya es importante  para mí porque siempre le tuve miedo a los códigos, y lo similar.
 
+link a repositorio https://github.com/nadiagonzalez-l24/tp1cv
 
 
 
