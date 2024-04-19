@@ -1,40 +1,41 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
 html {
     scroll-behavior: smooth;
 }
 
 body {
-    margin: 50px 70px 0% 70px;
-    padding: 0%;
+    margin: 5% 7% 0% 7%;
     background-image: url(imagenes/fondo.jpg); 
+    background-size: 100%;
     background-repeat: no-repeat;
-    background-position: top center;
     background-attachment: scroll;
+    background-position: top center;
+    font-size: 16px;
     cursor: url(imagenes/cursor1.png), auto
 }
 
-#1 #2 {
+nav {
     display: flex;
-    flex-direction: row;
-}
-
-nav{
-    position: fixed;
-    height: 50px;
-    right: 70px;
+    justify-content: flex-end;
 }
 
 .boton1,.boton2 {
+    margin-left: 1vw;
+    padding: 1vw;
     transition: transform 0.5s ease;
     background-color: #223E66;
-    height: 50px;
     text-align: center;
-    padding: 20px;
-    margin-left: 5px;
     color: white;
     border-radius: 20%;
     border: none;
-    font-family: archivo;
-    font-weight: bold;
+    font-family: roboto;
+    font-weight: normal;
+    letter-spacing: 1px;
+    font-size: 1em;
     cursor: url(imagenes/cursor2.png), auto
 }
 
@@ -47,85 +48,124 @@ nav{
     color: #223E66;
 }
 
+div {
+    margin-top: 2%;
+    display: flex;
+    flex-direction: column;
+} 
+
+.tiempo {
+    margin-top: 8%;
+    font-family: roboto;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    font-size: 0.8em;
+    display: flex;
+    align-items: center;
+}
+
+img {
+    border: 2%;
+    border-style: double;
+    border-color: #223E66;
+    border-radius: 20%;
+}
+
 h1 {
-    font-family: archivo;
-    font-weight: bold;
+    font-family: roboto serif;
     font-style: italic;
+    font-size: 4em;
     color: #d6326e;
 }
 
-.fotoredondeada {
-    border-radius: 20px;
-}
-
-.textolargo {
-    font-family: archivo;
+.bajada {
+    font-family: roboto serif;
     font-style: italic;
-    width: 382px;
+    font-size: 2em;
+    line-height: 1.1;
 }
 
 main {
-    margin-left: 478px;
-    margin-right: 70px;
+    margin-top: 10%;
+    gap: 10%;
+    display: flex; 
+}
+
+aside {
+    flex: 1;
+}
+
+.textolargo {
+    font-family: robot serif;
+    font-style: italic;
+    font-size: 1em;
+    line-height: 1.5;
+    color: #223E66;
+}
+
+section {
+    flex: 2;
+    line-height: 1.5;
 }
 
 h2 {
-    font-family: archivo;
+    font-family: roboto;
     font-weight: bold;
-    color: #D6326E;
+    color: #223E66;
+    font-size: 2em;
 }
 
 h3 {
-    font-family: archivo;
+    font-family: roboto;
     font-weight: bold;
+    font-size: 1em;
 }
 
 .nombres {
-    font-style: italic;
-}
-
-.bajada {
-    font-family: archivo;
+    font-family: roboto serif;
     font-style: italic;
 }
 
 ul,ol,li,p {
-    font-family: archivo;
+    font-family: roboto;
     font-style: normal;
 }
 
 ul li {
-    list-style-type: circle;
+    list-style-type: disc;
 }
 
 ol li {
     list-style-type: decimal;
 }
 
-dt {
-    font-family: archivo;
-    font-weight: bold;
+footer {
+    margin-top: 10%;
+    background-color: #223E66;
+    padding-top: 1vw; 
+    background-size: 100%;
+    background-attachment: scroll;
+    display: flex;
+    gap: 22%;
+    align-items: center;
 }
 
-dd {
-    margin-left: 0%;
-    font-family: archivo;
-    font-style: normal;
+footer p {
+    font-family: roboto;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    color: white;
+    font-size: 0.6em; 
+    display: flex;
 }
 
-#datitos {
-    background-color: #223E66; 
-    margin: 0;
-    height: 50px;
-    width: 100%;
-    padding: 20px;
-    text-align: center;
-}
- 
-.dato1,.dato2,.dato3 {
-    text-align: center;
-    margin: 60px;
+address {
+    display: flex;
     cursor: url(imagenes/cursor2.png), auto
+}
+
+span a {
+    margin: 1vw;
 }
 
 
