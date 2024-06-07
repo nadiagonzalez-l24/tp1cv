@@ -1,3 +1,119 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 a {
     text-decoration: none;
 }
+
+header {
+    background: #283F68;
+    background-size: 100%;
+}
+
+nav {
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    margin-left: 6%;
+    margin-right: 6%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 5%;
+    height: 5%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.botonesnav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 12%;
+}
+
+.boton1, .boton2, .boton3, .boton4 {
+    font-family: lato;
+    font-style: normal;
+    font-size: 1em;
+    color: #FF489B;
+    text-decoration: underline;
+}
+
+.boton1:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.boton2:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.boton3:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.boton4:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.mainindex {
+    font-family: lato;
+    color: #FF489B;
+    font-size: 3em;
+    margin: 6% 6% 6% 6%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+}
+
+.presentacion {
+    width: 70%;
+}
+
+.italicablack {
+    font-family: lato; 
+    font-style: italic;
+    font-weight: 900;
+}
+
+.black {
+    font-family: lato;
+    font-weight: 900;
+}
+
+.fotonadia {
+    width: 384px;
+    height: 384px;
+    border-radius: 384px;
+    border: 9px solid #FF489B;
+}
+
+footer {
+    background-color: #283F68;
+    background-size: 100%;
+}
+
+.piedepag {
+    color: #FF489B;
+    font-family: lato;
+    font-style: normal;
+    font-size: 1em;
+    line-height: 0.5;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    margin-left: 6%;
+    margin-right: 6%;
+}
+
