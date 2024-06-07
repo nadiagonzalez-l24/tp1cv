@@ -70,14 +70,49 @@ nav {
     color: #FF489B;
     font-size: 3em;
     margin: 6% 6% 6% 6%;
+}
+
+.izquierdaindex {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 5%;
 }
 
-.presentacion {
-    width: 70%;
+.seccionfotoindex {
+    position: relative;
+    display: inline-block;
+}
+
+.espiral {
+    width: 20%;
+    height: 20%;
+    margin-left: 6%;
+    margin-top: 6%;
+    position: absolute;
+    animation-name: giro;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes giro {
+    from {
+        transform: rotate(0deg);
+    }to{
+        transform: rotate(360deg); 
+    }
+}
+
+.fotonadia {
+    width: 384px;
+    height: 384px;
+    border-radius: 384px;
+    border: 9px solid #FF489B;
+}
+
+.textopresentacion {
+    width: 48%;
 }
 
 .italicablack {
@@ -91,11 +126,28 @@ nav {
     font-weight: 900;
 }
 
-.fotonadia {
-    width: 384px;
-    height: 384px;
-    border-radius: 384px;
-    border: 9px solid #FF489B;
+.ilusflor {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+.flor {
+    width: 60%;
+    height: 60%;
+    animation-name: giro;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes giro {
+    from {
+        transform: rotate(0deg);
+    }to{
+        transform: rotate(360deg); 
+    }
 }
 
 footer {
@@ -116,4 +168,122 @@ footer {
     margin-left: 6%;
     margin-right: 6%;
 }
+
+
+.maincv {
+    margin: 6% 6% 6% 6%;
+    font-family: lato;
+    font-style: normal;
+    line-height: 1.5;
+    color: #283F68;
+    display: flex;
+    justify-content: space-between;
+    gap: 4%;
+}
+
+.ilustracion {
+    width: 5%;
+    height: 10%;
+}
+
+.izquierda {
+    width: 25%; 
+}
+
+.italica {
+    font-style: italic;
+}
+
+.black {
+    font-weight: 900;
+}
+
+h2, h3 {
+    font-weight: 900;
+}
+
+.parte1barra {
+    line-height: 1.5;
+}
+
+.barra1 {
+    background-color: #FF489B;
+    border-radius: 10%;
+    height: 4px;
+    width: 50%;
+}
+
+.parte2barra {
+    line-height: 1.5;
+}
+
+.barra2 {
+    background-color: #FF489B;
+    border-radius: 10%;
+    height: 4px;
+    width: 30%;
+}
+
+.parte3barra {
+    line-height: 1.5;
+}
+
+.barra3 {
+    background-color: #FF489B;
+    border-radius: 10%;
+    height: 4px;
+    width: 60%;
+}
+
+.parte4barra {
+    line-height: 1.5;
+}
+
+.barra4 {
+    background-color: #FF489B;
+    border-radius: 10%;
+    height: 4px;
+    width: 40%;
+}
+
+.parte5barra {
+    line-height: 1.5;
+}
+
+.barra5 {
+    background-color: #FF489B;
+    border-radius: 10%;
+    height: 4px;
+    width: 50%;
+}
+
+.centro, .derecha {
+    width: 35%;
+}
+
+ul, ol {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.botonencv {
+    padding-top: 10%;
+}
+
+.botonsobremi {
+    border-radius: 30%;
+    border-color: #283F68;
+    padding: 3% 3% 3% 3%;
+    font-weight: 900;
+    color: #283F68;
+}
+
+.botonsobremi:hover {
+    border-radius: 30%;
+    border-color: #FF489B;
+    background-color: #FF489B;
+    color: white;
+}
+
 
