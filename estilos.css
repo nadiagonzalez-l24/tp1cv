@@ -22,8 +22,8 @@ a {
 }
 
 .logoindex {
-    width: 1106.79px;
-    height: 937.93px;
+    width: 626px;
+    height: 530px;
 }
 
 .mainindex {
@@ -124,7 +124,21 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 2%;
+    gap: 4%;
+}
+
+.boton2index, .boton3index, .boton4index {
+    font-weight: 900;
+    color: #FF489B;
+    border-radius: 10px;
+    border: 2px solid #FF489B;
+    background-color: transparent;
+    padding: 7px;
+}
+
+.boton2index:hover, .boton3index:hover, .boton4index:hover {
+    background-color: #FF489B;
+    color: white;
 }
 
 header {
@@ -153,7 +167,7 @@ nav {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    gap: 2%;
+    gap: 1%;
 }
 
 .boton1, .boton2, .boton3, .boton4 {
@@ -191,8 +205,8 @@ footer {
     margin-right: 6%;
 }
 
-
 .maincv {
+    
     margin: 6% 6% 6% 6%;
     font-family: lato;
     font-style: normal;
@@ -200,16 +214,42 @@ footer {
     color: #283F68;
     display: flex;
     justify-content: space-between;
-    gap: 4%;
+    gap: 10%;
 }
 
-.ilustracion {
-    width: 5%;
-    height: 10%;
+.navcv .boton2 {
+    font-family: lato;
+    font-weight: 900;
+    color: #FF489B;
+    border-radius: 10px;
+    border: 2px solid #FF489B;
+    background-color: transparent;
+    padding: 6px;
 }
 
-.izquierda {
+.izquierda, .centroizq, .centroder, .derecha {
     width: 25%; 
+    display: flex;
+    flex-direction: column;
+    gap: 8%;
+}
+
+.cuadrodisponibilidad {
+    background-color: #FF489B;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.disponibilidad {
+    color: white;
+    text-align: center;
+    font-weight: 900;
+    line-height: 1;
+    font-size: 0.8em;
+    width: 75%;
 }
 
 .italica {
@@ -220,8 +260,14 @@ footer {
     font-weight: 900;
 }
 
-h2, h3 {
+h2 {
     font-weight: 900;
+    margin-bottom: 5%;
+}
+
+h3 {
+    margin-top: 0%;
+    margin-bottom: 0%;
 }
 
 .parte1barra {
@@ -279,9 +325,6 @@ h2, h3 {
     width: 50%;
 }
 
-.centro, .derecha {
-    width: 35%;
-}
 
 ul, ol {
     list-style-type: none;
@@ -295,11 +338,24 @@ ul, ol {
     font-style: normal;
     line-height: 1.5;
     color: #283F68;
-    display: flex;
-    justify-content: center;
 }
 
-.infomuestra {
-    width: 25%;
+.navproyectos .boton3 {
+    font-family: lato;
+    font-weight: 900;
+    color: #FF489B;
+    border-radius: 10px;
+    border: 2px solid #FF489B;
+    background-color: transparent;
+    padding: 6px;
+}
 
+.navcontacto .boton4 {
+    font-family: lato;
+    font-weight: 900;
+    color: #FF489B;
+    border-radius: 10px;
+    border: 2px solid #FF489B;
+    background-color: transparent;
+    padding: 6px;
 }
