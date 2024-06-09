@@ -8,61 +8,22 @@ a {
     text-decoration: none;
 }
 
-header {
-    background: #283F68;
+.headerindex {
     background-size: 100%;
-}
-
-nav {
-    padding-top: 1.5%;
-    padding-bottom: 1.5%;
-    margin-left: 6%;
-    margin-right: 6%;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
 }
 
-.logo {
-    width: 5%;
-    height: 5%;
+.contenedorlogoindex {
+    width: 100%;
     display: flex;
-    justify-content: flex-start;
-    align-items: center;
+    justify-content: center;
+    margin-top: 6%;
 }
 
-.botonesnav {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    gap: 12%;
-}
-
-.boton1, .boton2, .boton3, .boton4 {
-    font-family: lato;
-    font-style: normal;
-    font-size: 1em;
-    color: #FF489B;
-    text-decoration: underline;
-}
-
-.boton1:hover {
-    color: white;
-    text-decoration: none;
-}
-
-.boton2:hover {
-    color: white;
-    text-decoration: none;
-}
-
-.boton3:hover {
-    color: white;
-    text-decoration: none;
-}
-
-.boton4:hover {
-    color: white;
-    text-decoration: none;
+.logoindex {
+    width: 1106.79px;
+    height: 937.93px;
 }
 
 .mainindex {
@@ -70,9 +31,12 @@ nav {
     color: #FF489B;
     font-size: 3em;
     margin: 6% 6% 6% 6%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
-.izquierdaindex {
+.presentacionindex {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -85,10 +49,8 @@ nav {
 }
 
 .espiral {
-    width: 20%;
-    height: 20%;
-    margin-left: 6%;
-    margin-top: 6%;
+    width: 95px;
+    height: 99px;
     position: absolute;
     animation-name: giro;
     animation-duration: 20s;
@@ -130,12 +92,13 @@ nav {
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    margin-right: 12%;
 
 }
 
 .flor {
-    width: 60%;
-    height: 60%;
+    width: 227.76px;
+    height: 216.21px;
     animation-name: giro;
     animation-duration: 20s;
     animation-iteration-count: infinite;
@@ -149,6 +112,65 @@ nav {
         transform: rotate(360deg); 
     }
 }
+
+.navindex {
+    margin-bottom: 6%;
+    display: flex;
+    justify-content: center;
+}
+
+.botonesnavindex {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2%;
+}
+
+header {
+    background-size: 100%;
+}
+
+nav {
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    margin-left: 6%;
+    margin-right: 6%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 5%;
+    height: 5%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.botonesnav {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 2%;
+}
+
+.boton1, .boton2, .boton3, .boton4 {
+    font-family: lato;
+    font-style: normal;
+    color: #FF489B;
+    border-radius: 10px;
+    border: 1px solid #FF489B;
+    background-color: transparent;
+    padding: 6px;
+}
+
+.boton1:hover, .boton2:hover, .boton3:hover, .boton4:hover {
+    background-color: #FF489B;
+    color: white;
+}
+
 
 footer {
     background-color: #283F68;
@@ -267,25 +289,6 @@ ul, ol {
     margin: 0;
 }
 
-.botonencv {
-    padding-top: 10%;
-}
-
-.botonsobremi {
-    border-radius: 30%;
-    border-color: #283F68;
-    padding: 3% 3% 3% 3%;
-    font-weight: 900;
-    color: #283F68;
-}
-
-.botonsobremi:hover {
-    border-radius: 30%;
-    border-color: #FF489B;
-    background-color: #FF489B;
-    color: white;
-}
-
 .mainproyectos {
     margin: 6% 6% 6% 6%;
     font-family: lato;
@@ -293,24 +296,10 @@ ul, ol {
     line-height: 1.5;
     color: #283F68;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .infomuestra {
     width: 25%;
+
 }
-
-.separadordecoracion {
-    width: 5%;
-}
-
-.muestras {
-    width: 70%;
-}
-
-.muestra1 {
-    width: 25%;
-    height: 25%;
-}
-
-
