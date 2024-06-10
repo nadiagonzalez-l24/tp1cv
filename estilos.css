@@ -74,7 +74,7 @@ a {
 }
 
 .textopresentacion {
-    width: 48%;
+    width: 42%;
 }
 
 .italicablack {
@@ -92,8 +92,7 @@ a {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    margin-right: 12%;
-
+    padding-right: 12%;
 }
 
 .flor {
@@ -185,7 +184,6 @@ nav {
     color: white;
 }
 
-
 footer {
     background-color: #283F68;
     background-size: 100%;
@@ -206,7 +204,6 @@ footer {
 }
 
 .maincv {
-    
     margin: 6% 6% 6% 6%;
     font-family: lato;
     font-style: normal;
@@ -229,9 +226,72 @@ footer {
 
 .izquierda, .centroizq, .centroder, .derecha {
     width: 25%; 
-    display: flex;
-    flex-direction: column;
-    gap: 8%;
+}
+
+.italica {
+    font-style: italic;
+}
+
+.black {
+    font-weight: 900;
+}
+
+h2 {
+    text-decoration: underline;
+    font-weight: 900;
+    margin-bottom: 4%;
+}
+
+h3 {
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+.ulcv, .ulhabilidades {
+    list-style-type: none;
+}
+
+.ulhabilidades {
+    padding-bottom: 20%;
+}
+
+.parte1barra {
+    line-height: 1.5;
+}
+
+.barra1 {
+    background-color: #FF489B;
+    border-radius: 10%;
+    height: 4px;
+    width: 50%;
+}
+
+.barra2 {
+    background-color: #FF489B;
+    background-size: 45%;
+    border-radius: 10%;
+    height: 4px;
+}
+
+.barra3 {
+    background-color: #FF489B;
+    border-radius: 10%;
+    height: 4px;
+    width: 60%;
+}
+
+.barra4 {
+    background-color: #FF489B;
+    border-radius: 10%;
+    height: 4px;
+    width: 40%;
+}
+
+.barra5 {
+    background-color: #FF489B;
+    border-radius: 10%;
+    height: 4px;
+    width: 50%;
 }
 
 .cuadrodisponibilidad {
@@ -252,87 +312,13 @@ footer {
     width: 75%;
 }
 
-.italica {
-    font-style: italic;
-}
-
-.black {
-    font-weight: 900;
-}
-
-h2 {
-    font-weight: 900;
-    margin-bottom: 5%;
-}
-
-h3 {
-    margin-top: 0%;
-    margin-bottom: 0%;
-}
-
-.parte1barra {
-    line-height: 1.5;
-}
-
-.barra1 {
-    background-color: #FF489B;
-    border-radius: 10%;
-    height: 4px;
-    width: 50%;
-}
-
-.parte2barra {
-    line-height: 1.5;
-}
-
-.barra2 {
-    background-color: #FF489B;
-    border-radius: 10%;
-    height: 4px;
-    width: 30%;
-}
-
-.parte3barra {
-    line-height: 1.5;
-}
-
-.barra3 {
-    background-color: #FF489B;
-    border-radius: 10%;
-    height: 4px;
-    width: 60%;
-}
-
-.parte4barra {
-    line-height: 1.5;
-}
-
-.barra4 {
-    background-color: #FF489B;
-    border-radius: 10%;
-    height: 4px;
-    width: 40%;
-}
-
-.parte5barra {
-    line-height: 1.5;
-}
-
-.barra5 {
-    background-color: #FF489B;
-    border-radius: 10%;
-    height: 4px;
-    width: 50%;
-}
-
-
 ul, ol {
-    list-style-type: none;
     padding: 0;
     margin: 0;
 }
 
 .mainproyectos {
+    width: 100%;
     margin: 6% 6% 6% 6%;
     font-family: lato;
     font-style: normal;
@@ -350,6 +336,13 @@ ul, ol {
     padding: 6px;
 }
 
+.infomuestra {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    gap: 20%;
+}
+
 .navcontacto .boton4 {
     font-family: lato;
     font-weight: 900;
@@ -359,3 +352,12 @@ ul, ol {
     background-color: transparent;
     padding: 6px;
 }
+
+.maincontacto {
+    margin: 6% 6% 6% 6%;
+    font-family: lato;
+    font-style: normal;
+    line-height: 1.5;
+    color: #283F68;
+}
+
