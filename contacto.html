@@ -6,55 +6,74 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Portafolio Nadia Gonzalez</title>
         <link rel="stylesheet" href="estilos.css">
-        <link rel="icon" href="img/favicon.svg" type="image/x-icon">
+        <link rel="icon" href="img/logos/favicon.ico" type="image/x-icon">
     </head>
 
     <body>
 
         <header>
             <nav class="navcontacto">
-                <div class="logo">
-                    <img src="img/logorosa-01.svg" alt="logo">
+                <div class="logodelnav">
+                    <img src="img/logos/logorosa.svg" alt="logorosa">
                 </div>
                 <div class="botonesnav">
-                    <a href="index.html"><button class="boton1" >Inicio</button></a> 
-                    <a href="curriculum.html"><button class="boton2" >Curriculum</button></a>
-                    <a href="proyectos.html"><button class="boton3">Proyectos</button></a>
-                    <a href="contacto.html"><button class="boton4" >Contacto</button></a>
+                    <a class="boton1" href="index.html" target="_self">Inicio</a> 
+                    <a class="boton2" href="curriculum.html" target="_self">Curriculum</a>
+                    <a class="boton3" href="proyectos.html" target="_self">Proyectos</a>
+                    <a class="boton4" href="contacto.html" target="_self">Contacto</a>
                 </div>
             </nav>
         </header>
 
         <main class="maincontacto">
-            <h2>¡Trabajemos en tu proyecto!</h2>
-            <form method="post" action="mailto:nadia.s.g.gonzalez@gmail.com" target="_blank" enctype="text/plain"></form>
-                <div class="datoscontacto>
-                    <label for="nombre">Nombre:</label>
-                    <input type="text" name="nombre" id="nombre" maxlength="20" placeholder="Nombre" required> 
-                    <label for="apellido">Apellido:</label>
-                    <input type="text" name="apellido" id="apellido" maxlength="20" placeholder="Apellido" required>
-                    <label for="correo">Correo:</label>
-                    <input type="text" name="correo" id="correo" maxlength="20" placeholder="Correo electr&oacute;nico" required>
-                    <input type="submit">
-                    <label for="Tel&eacute;fono">Tel&eacute;fono:</label>
-                    <input type="tel" name="Tel&eacute;fono" id="Tel&eacute;fono" placeholder="(c&oacute;d. area + n&uacute;mero)">
-                </div>
-                <div>
+            <section class="contenedordelformulario">
+                <h2 class="titulocontacto">¡Trabajemos en tu proyecto!</h2>
+                <form method="post" action="mailto:nadia.s.g.gonzalez@gmail.com" target="_blank" enctype="text/plain"></form>
+                <section class="superior">
+                        <div class="datosderecha">
+                            <div class="sobreelcampo">
+                                <label for="nombre">Nombre</label>
+                                <input type="text" name="nombre" id="nombre" maxlength="30" placeholder="Nombre" required> 
+                            </div>
+                            <div class="sobreelcampo">
+                                <label for="correo">Correo</label>
+                                <input type="text" name="correo" id="correo" maxlength="20" placeholder="Correo electr&oacute;nico" required>
+                            </div>
+                        </div>
+                        <div class="datosizquierda">
+                            <div class="sobreelcampo">
+                                <label for="apellido">Apellido</label>
+                                <input type="text" name="apellido" id="apellido" maxlength="50" placeholder="Apellido" required>
+                            </div>
+                            <div class="sobreelcampo">
+                                <label for="Tel&eacute;fono">Tel&eacute;fono</label>
+                                <input type="tel" name="Tel&eacute;fono" id="Tel&eacute;fono" placeholder="(c&oacute;d. area + n&uacute;mero)">
+                            </div>
+                        </div>
+                </section>
+                <section class="medio">
                     <h3>Intereses</h3>
-                    <label for="diseño editorial">Diseño editorial<input type="checkbox" name="Intereses" value="Diseño editorial" id="editorial"></label>
-                    <label for="Diseño de informaci&oacute;n">Diseño de informaci&oacute;n<input type="checkbox" name="Intereses" value="Diseño de informaci&oacute;n" id="infograf&iacute;a"></label>
-                    <label for="Diseño de identidad">Diseño de identidad<input type="checkbox" name="Intereses" value="Diseño de identidad" id="identidad"></label>
-                </div>
-                <div>
-                    <label for="Mensaje"></label>
+                    <div class="checkbox">
+                        <label for="diseño editorial">Diseño editorial<input type="checkbox" name="Intereses" value="Diseño editorial" id="editorial"></label>
+                        <label for="Diseño de informaci&oacute;n">Diseño de informaci&oacute;n<input type="checkbox" name="Intereses" value="Diseño de informaci&oacute;n" id="infograf&iacute;a"></label>
+                        <label for="Diseño de identidad">Diseño de identidad<input type="checkbox" name="Intereses" value="Diseño de identidad" id="identidad"></label>
+                    </div>
+                </section>
+                <section class="inferior">
                     <h3>Dejame tu mensaje</h3>
-                    <TEXtarea name="mensaje" id="mensaje" placeholder="¡Cuéntame tu idea!"></TEXtarea>
-                </div>
-                <div>
-                    <input type="reset" value="Borrar">
-                    <input type="submit" value="Enviar">
-                </div>
-            </form>
+                    <div class="areamensaje">
+                        <label for="Mensaje"></label>
+                        <textarea name="mensaje" id="mensaje" placeholder="¡Comentame tu idea!"></textarea>
+                    </div>
+                    <div class="botonesdelformulario">
+                        <input class="botonborrar" type="reset" value="borrar">
+                        <input class="botonenviar" type="submit" value="enviar">
+                    </div>
+                </section>
+            </section>
+            <section class="seccionflecha">
+                <a href="proyectos.html"><img src="img/ilustraciones/flechavolver.svg" alt="fechavolver"></a>
+            </section>
         </main>
 
         <footer>

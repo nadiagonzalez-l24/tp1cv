@@ -1,36 +1,34 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
 body {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    font-family: lato;
+    font-size: 18px;
+    height: 100%;
 }
 
 a {
     text-decoration: none;
 }
 
-.headerindex {
-    background-size: 100%;
-    display: flex;
-    flex-direction: column;
-}
-
 .contenedorlogoindex {
     width: 100%;
     display: flex;
     justify-content: center;
-    margin-top: 6%;
+    margin-top: 12%;
 }
 
 .logoindex {
-    width: 626px;
-    height: 530px;
+    width: 60%;
+    height: auto;
 }
 
 .mainindex {
     font-family: lato;
-    color: #FF489B;
-    font-size: 3em;
-    margin: 6% 6% 6% 6%;
+    margin: 6% 12% 12% 12%;
+    font-family: lato;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -49,8 +47,8 @@ a {
 }
 
 .espiral {
-    width: 95px;
-    height: 99px;
+    width: 30%;
+    height: auto;
     position: absolute;
     animation-name: giro;
     animation-duration: 20s;
@@ -75,6 +73,8 @@ a {
 
 .textopresentacion {
     width: 42%;
+    color: #FF489B;
+    font-size: 3em;
 }
 
 .italicablack {
@@ -88,16 +88,18 @@ a {
     font-weight: 900;
 }
 
-.ilusflor {
+.seccionflor {
     display: flex;
     justify-content: flex-end;
     align-items: center;
     padding-right: 12%;
+    padding-top: 6%;
+    padding-bottom: 6%;
 }
 
 .flor {
-    width: 227.76px;
-    height: 216.21px;
+    width: 20%;
+    height: auto;
     animation-name: giro;
     animation-duration: 20s;
     animation-iteration-count: infinite;
@@ -113,20 +115,15 @@ a {
 }
 
 .navindex {
-    margin-bottom: 6%;
-    display: flex;
-    justify-content: center;
-}
-
-.botonesnavindex {
-    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top: 3%;
     gap: 4%;
 }
 
 .boton2index, .boton3index, .boton4index {
+    font-size: 1.5em;
     font-weight: 900;
     color: #FF489B;
     border-radius: 10px;
@@ -136,24 +133,21 @@ a {
 }
 
 .boton2index:hover, .boton3index:hover, .boton4index:hover {
+    font-size: 1.5em;
     background-color: #FF489B;
     color: white;
 }
 
-header {
-    background-size: 100%;
-}
-
-nav {
+.navcv, .navcontacto, .navproyectos {
     padding-top: 1.5%;
     padding-bottom: 1.5%;
-    margin-left: 6%;
-    margin-right: 6%;
+    margin-left: 12%;
+    margin-right: 12%;
     display: flex;
     justify-content: space-between;
 }
 
-.logo {
+.logodelnav {
     width: 5%;
     height: 5%;
     display: flex;
@@ -172,6 +166,7 @@ nav {
 .boton1, .boton2, .boton3, .boton4 {
     font-family: lato;
     font-style: normal;
+    font-size: 0.8em;
     color: #FF489B;
     border-radius: 10px;
     border: 1px solid #FF489B;
@@ -180,6 +175,7 @@ nav {
 }
 
 .boton1:hover, .boton2:hover, .boton3:hover, .boton4:hover {
+    font-size: 0.8em;
     background-color: #FF489B;
     color: white;
 }
@@ -193,8 +189,8 @@ footer {
     color: #FF489B;
     font-family: lato;
     font-style: normal;
-    font-size: 1em;
-    line-height: 0.5;
+    font-size: 0.8em;
+    line-height: 1.5;
     display: flex;
     justify-content: space-between;
     padding-top: 1.5%;
@@ -203,19 +199,7 @@ footer {
     margin-right: 6%;
 }
 
-.maincv {
-    margin: 6% 6% 6% 6%;
-    font-family: lato;
-    font-style: normal;
-    line-height: 1.5;
-    color: #283F68;
-    display: flex;
-    justify-content: space-between;
-    gap: 10%;
-}
-
 .navcv .boton2 {
-    font-family: lato;
     font-weight: 900;
     color: #FF489B;
     border-radius: 10px;
@@ -224,110 +208,137 @@ footer {
     padding: 6px;
 }
 
-.izquierda, .centroizq, .centroder, .derecha {
-    width: 25%; 
-}
-
-.italica {
-    font-style: italic;
-}
-
-.black {
-    font-weight: 900;
+.maincv {
+    margin: 6% 24% 12% 24%;
+    font-family: lato;
+    color: #283F68;
+    display: flex;
+    flex-direction: column;
 }
 
 h2 {
-    text-decoration: underline;
-    font-weight: 900;
-    margin-bottom: 4%;
+    font-size: 1.8em;
+    font-weight: 700;
+    line-height: 1;
+    padding-bottom: 2%;
+    color: #FF489B;
 }
 
 h3 {
-    margin-top: 0%;
-    margin-bottom: 0%;
+    font-weight: 700;
+    font-style: italic; 
 }
 
-.ulcv, .ulhabilidades {
-    list-style-type: none;
+p, li {
+    line-height: 1.2;
 }
 
-.ulhabilidades {
-    padding-bottom: 20%;
+.primeraseccion, .terceraseccion {
+    display: flex;
+    justify-content: space-between;
+    gap: 5%;
 }
 
-.parte1barra {
-    line-height: 1.5;
+.contenedorfilete {
+    padding-top: 12%;
 }
 
-.barra1 {
-    background-color: #FF489B;
-    border-radius: 10%;
-    height: 4px;
-    width: 50%;
+.filete {
+    background-color: #283F68;
+    width: 100%;
+    height: 5px;
+    border-radius: 10px;
+}
+
+.segundaseccion {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 12%;
+}
+
+.contenedordeestudios {
+    display: flex;
+    justify-content: space-between;
+}
+
+.divuniversitario, .divcursos, .divsecundario {
+    width: 30%;
+}
+
+.terceraseccion {
+    padding-top: 12%;
+}
+
+.datospersonales, .seccionhabilidades {
+    width: 30%;
+} 
+
+.divbarras {
+    padding-top: 4%;
+}
+
+.barra1, .barra2, .barra3, .barra4, .barra5 {
+    background-color: #283F68;
+    border-radius: 10px;
+    height: 12px;
+    color: #FF489B;
+    font-weight: 700;
+    letter-spacing: 2px;
+    font-size: 0.5em;
+    text-align: center;
+}
+
+.barra1, .barra5 {
+    width: 70%;
 }
 
 .barra2 {
-    background-color: #FF489B;
-    background-size: 45%;
-    border-radius: 10%;
-    height: 4px;
-}
-
-.barra3 {
-    background-color: #FF489B;
-    border-radius: 10%;
-    height: 4px;
-    width: 60%;
-}
-
-.barra4 {
-    background-color: #FF489B;
-    border-radius: 10%;
-    height: 4px;
-    width: 40%;
-}
-
-.barra5 {
-    background-color: #FF489B;
-    border-radius: 10%;
-    height: 4px;
     width: 50%;
 }
 
-.cuadrodisponibilidad {
-    background-color: #FF489B;
-    border-radius: 10px;
+.barra3 {
+    width: 80%;
+}
+
+.barra4 {
+    width: 60%;
+}
+
+.acercademi, .servicios {
+    width: 60%;
+}
+
+.subtitulos {
+padding-top: 2%;
+}
+
+.divbotondisponibilidad {
+    position: relative;
+    display: inline-block;
     display: flex;
-    flex-direction: column;
-    align-items: center;
     justify-content: center;
+    padding-top: 12%;
 }
 
-.disponibilidad {
-    color: white;
+.botondisponibilidad {
     text-align: center;
-    font-weight: 900;
-    line-height: 1;
     font-size: 0.8em;
-    width: 75%;
-}
-
-ul, ol {
-    padding: 0;
-    margin: 0;
-}
-
-.mainproyectos {
-    width: 100%;
-    margin: 6% 6% 6% 6%;
-    font-family: lato;
     font-style: normal;
-    line-height: 1.5;
-    color: #283F68;
+    color: #FF489B;
+    border-radius: 10px;
+    border: 1px solid #FF489B;
+    background-color: transparent;
+    width: 100%;
+    padding: 6px;
+}
+
+.botondisponibilidad:hover {
+    background-color: #FF489B;
+    color: white;
 }
 
 .navproyectos .boton3 {
-    font-family: lato;
     font-weight: 900;
     color: #FF489B;
     border-radius: 10px;
@@ -336,15 +347,33 @@ ul, ol {
     padding: 6px;
 }
 
-.infomuestra {
-    width: 25%;
+.mainproyectos {
+    margin: 6% 12% 12% 12%;
+    font-family: lato;
+}
+
+.galeria {
     display: flex;
     flex-direction: column;
-    gap: 20%;
+    align-items: center;
+}
+
+.fotos {
+    padding: 3%;
+}
+
+.galeria img{
+    border-radius: 10px;
+    border: 4px solid #FF489B;
+    filter: grayscale(100%);
+    transition: filter 0.3s ease;
+}
+
+.galeria img:hover {
+    filter: none;
 }
 
 .navcontacto .boton4 {
-    font-family: lato;
     font-weight: 900;
     color: #FF489B;
     border-radius: 10px;
@@ -354,10 +383,100 @@ ul, ol {
 }
 
 .maincontacto {
-    margin: 6% 6% 6% 6%;
+    margin: 6% 24% 6% 24%;
     font-family: lato;
-    font-style: normal;
-    line-height: 1.5;
     color: #283F68;
 }
+
+.contenedordelformulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: transparent;
+    border: #FF489B;
+    border-radius: 10px;
+}
+
+.titulocontacto {
+    padding-bottom: 0%;
+}
+
+.contenedordelformulario h3 {
+    padding-bottom: 1%;
+}
+
+.superior, .medio, .inferior {
+    padding-top: 5%;
+}
+
+.superior {
+    display: flex;
+    gap: 6%;
+}
+
+label {
+    padding-bottom: 2%;
+}
+
+input {
+    background-color: transparent;
+    border: 1px solid #283F68;
+    border-radius: 10px;
+    height: 24px;
+}
+
+input:focus{
+    border: 2px solid #FF489B;
+}
+
+.sobreelcampo {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10%;
+}
+
+.inferior {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+textarea {
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent;
+    border-radius: 10px;
+    font-family: lato;
+    border: 1px solid #283F68;
+}
+
+.botonborrar, .botonenviar {
+    text-align: center;
+    font-size: 0.8em;
+    font-style: normal;
+    color: #FF489B;
+    border-radius: 10px;
+    border: 1px solid #FF489B;
+    background-color: transparent;
+    padding: 6px;
+    width: 30%;
+}
+
+.botonborrar:hover, .botonenviar:hover {
+    background-color: #FF489B;
+    color: white;
+}
+
+.seccionflecha {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 6%;
+    padding-bottom: 0%;
+}
+
+.seccionflecha img {
+    width: 40%;
+    height: auto;
+}
+
 
