@@ -1,48 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
-
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Portafolio Nadia Gonzalez</title>
+        <title>Portafolio Nadia Gonzalez Leiva</title>
         <link rel="stylesheet" href="estilos.css">
-        <link rel="icon" href="img/logos/favicon.ico" type="image/x-icon">
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+            </style>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+            </style>
     </head>
-
     <body>
-
         <header>
-            <nav class="navcontacto">
-                <div class="logodelnav">
-                    <img src="img/logos/logorosa.svg" alt="logorosa">
+            <nav class="navcvyproyectos">
+                <div class="logonav">
+                    <a href="index.html"><img src="img/logos/logorosa.svg" alt="logo Nadia" width="99.85px" height="80.88px"></a>
                 </div>
-                <div class="botonesnav">
-                    <a class="boton1" href="index.html" target="_self">Inicio</a> 
-                    <a class="boton2" href="curriculum.html" target="_self">Curriculum</a>
-                    <a class="boton3" href="proyectos.html" target="_self">Proyectos</a>
-                    <a class="boton4" href="contacto.html" target="_self">Contacto</a>
+                <div class="botonera">
+                    <a class="botonesnav" href="index.html" target="_self">inicio</a>
+                    <a class="botonesnav" href="cvyproyectos.html" target="_self">Curriculum</a>
+                    <a class="botonesnav" href="cvyproyectos.html" target="_self">Proyectos</a>
+                    <a class="botonesnav" href="contacto.html" target="_self">Contacto</a>
                 </div>
             </nav>
         </header>
-
         <main class="maincontacto">
-            
+            <section class="arrobagrande">
+                <img src="img/ilustraciones/arroba.svg" alt="imagen arroba">
+            </section>
+            <section class="formulario">
+                <form method="post" action="mailto:nadia.s.g.gonzale@gmail.com.ar?subject=del formulario target"_blank enctype="text/plain">
+                <h2>¡Trabajemos en tu proyecto!</h2>
+                <section class="contenedorcolumnas">
+                    <section class="columnaizquierda">
+                        <div class="fila">
+                            <label for="Nombre">Nombre*</label>
+                            <input type="text" name="Nombre" id="Nombre" maxlength="30" placeholder="Nombre" required>
+                        </div>
+                        <div class="fila">
+                            <label for="apellido">Apellido</label>
+                            <input type="text" name="apellido" id="apellido" maxlength="20" placeholder="apellido">
+                        </div>
+                        <div class="fila">
+                            <label for="apellido">Correo*</label>
+                            <input type="text" name="correo" id="correo" maxlength="30" placeholder="correo electr&oacute;nico" required>
+                        </div>
+                        <div class="fila">
+                            <label for="telefono">Tel&eacute;fono</label>
+                            <input type="text" name="telefono" id="telefono" maxlength="20" placeholder="(c&oacute;d. de area y n&uacute;mero)">
+                        </div>
+                    </section>
+                    <section class="columnaderecha">
+                        <div class="fila">
+                            <h3>&Aacute;reas</h3>
+                            <label for="Diseño editorial">Diseño editorial<input type="checkbox" name="areas" value="Diseño editorial" id="editorial"></label>
+                            <label for="Diseño de informacion">Diseño de informaci&oacute;n<input type="checkbox" name="areas" value="Diseño de informacion" id="informacion"></label>
+                            <label for="Diseño de identidad">Diseño de identidad<input type="checkbox" name="areas" value="Diseño de identidad" id="identidad"></label>
+                            <label for="otro">Otro<input type="checkbox" name="areas" value="otro" id="otro"></label>
+                        </div>
+                    </section>
+                </section>
+                <section class="filainferior">
+                    <div class="fila">
+                        <h3>Dejame tu mensaje*</h3>
+                        <label for="Mensaje"></label>
+                        <textarea name="Mensaje" id="Mensaje"></textarea>
+                    </div>
+                    <section class="contenedordelfiletecv">
+                        <div class="filete"></div>
+                    </section>
+                    <div class="contenedorbotonescontacto">
+                        <input class="botonescontacto" type="reset" value="Borrar">
+                        <input class="botonescontacto" type="submit" value="Enviar">
+                    </div>
+                </section>
+            </section>
+            <section class="contenedorencontactodos">
+                <section class="lateralderechocontacto">
+                    <p class="condensadacontactodos">No dudes en escribirme para consultas o comenzar a trabajar juntos. ¡Ser&aacute; un placer!</p>
+                </section>
+            </section>
         </main>
-
         <footer>
-            <section class="piedepag">
-                    <div>
-                        <p>Computaci&oacute;n 3</p>
-                        <p>Diseño y Comunicaci&oacute;n Visual UNLa</p>
-                        <p>Primer cuatrimestre 2024</p>
+            <section class="contenidodelfooter">
+                <div>
+                    <p>Computaci&oacute;n 3</p>
+                    <p>C&aacute;tedra Wischñevsky</p>
+                    <p>1er cuatrimestre 2024</p>
+                </div>
+                <div class="centrofooter">
+                    <div class="logosfooter">
+                        <a href="http://www.linkedin.com/in/nadia-stefania-gonzalez-leiva-91ab4323b/" target="_blank" rel="noopener noreferrer"><img src="img/logos/linkedin.svg" alt="logo linkedin" width="42.06px" height="42.06px"></a>
+                        <a href="https://www.behance.net/nadiagonzalezle?tracking_source=search_users|nadia%20gonzalez" target="_blank" rel="noopener noreferrer"><img src="img/logos/behance.svg" alt="logo behance"></a>
                     </div>
-                    <div>
-                        <p>Todos los derechos reservados</p>
-                        <p>Buenos Aires, Argentina</p>
-                    </div>
+                    <p>Nadia Gonzalez Diseño Gr&aacute;fico</p>
+                </div>
+                <div class="marginadoderecho">
+                    <p>DyCV UNLa</p>
+                    <p>Todos los derechos reservados</p>
+                    <p>Buenos Aires, Argentina</p>
+                </div>
             </section>
         </footer>
-
     </body>
-
 </html>

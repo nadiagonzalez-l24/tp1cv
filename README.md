@@ -1,10 +1,9 @@
-# tp1cv
+# tp2 portafolio
 Estuve desarrollando el trabajo en mi pantalla de 1280x768. Utilice el editor Visual Studio Code.
-Primero estructure en orden la información que quería en HTML, luego le fui dando color y una fuente deseada, sin embargo cuando comencé con flexbox tuve que reformular un poco la estructura del HTML, agregando, agrupando o quitando etiquetas. En un principio tenía todo configurado medidas en px, pero luego de la última clase me quedo claro que eso es arriesgado a la hora de hacer un diseño adaptable a diferentes tamaños de pantalla, por ende utilice medidas en em para las fuentes, y mayormente % para los espacios de márgenes y fondos. 
-Mi estructura de curriculum siempre fue básica, me guie por un cv que yo ya tenía en un formato PDF, por ello con CSS pude resolver la mayoría de los objetivos, con flexbox genere dos columnas, ubicación de botones en la parte superior derecha y lo utilice también para acomodar elementos en el footer. Allí en el footer me quedaron dos botones sin funcionar, uno para que me manden un mail y otro para una llamada, los configure siguiendo las videoclases del campus, pero creo que algo está faltando.
-Si bien sé que se pueden lograr cosas maravillosas como las de mis compañeros/as que utilizaron varios HTML y animaciones. Este pequeño proceso ya es importante  para mí porque siempre le tuve miedo a los códigos, y lo similar.
+Primero estructure en orden la información que quería en HTML ya pensando en como deberia ser util para estructurar lo que queria, por ende utilizo mucho section y div. Utilice flex box para casi todo, la galeria de imagenes fue estructurada basicamente con grid, aprovechando lo que comprendi. Aplique @media max width 600px para la pagina index y el de contacto. Utilice position para crear una barras que queria en "habilidades", pese a que no se suele resolver de la manera en que lo hice quedo simple y entendible. Jugue con animaciones y tambien descubri como ocultar elementos ya haciendo el trabajo grupal, lo cual pude aplicarlo en este trabajo tambien. Luche contra el scroll horizontal que se generaba en muchas ocasiones y por lo que vi, ninguna de las pocas paginas que estoy presentando tiene ese problema.
+Por otro lado, Disfrute mucho la materia, me parecieron super interesantes todos los temas. Gracias por todo.
 
-link a repositorio https://github.com/nadiagonzalez-l24/tp1cv
+link a figma https://www.figma.com/design/3OlTPRazJkAW5H55gNGewE/mi-portfolio-(Copy)?node-id=0-1&t=ePczZI9XrrPihaS0-1
 
 
 
